@@ -15,12 +15,12 @@ h1 {
 }
 
 
-h2, h3, h4, h5, a {
+h2, h3, h4, h5 {
   font-family: 'Gaegu', cursive;
   margin-bottom: 0;
   padding: 0 10px;
   /*=======  Font size'ı 30px yapın*/
-  font-size: 20px;
+  font-size: 30px;
 }
 
 /*======= Sayfadaki TÜM p tag'leri için aşağıdaki özellikleri içeren bir selector yaratın:*/
@@ -38,10 +38,7 @@ line-height: 1.4;
   border-radius: 10px;
 
 */
-img {
-  border-radius: 10px;
-  width: 5;
-}
+
 
 .content-row {
   display: flex;
@@ -84,6 +81,7 @@ img {
 background-color: #E79947;
 }
 
+
 /*======= Hakkmızda bölümü için aşağıdaki stilleri içeren bir selector yaratın:
   margin-top: 20px;
 */
@@ -91,12 +89,18 @@ background-color: #E79947;
 .contact-section {
   border-top: 1px dashed black;
   padding: 20px 0;
+  width: 800px;
 }
+.contact-section img{
 
+  width: 300px;
+  border-radius: 10px;
+}
 
 .contact-section h2 {
   padding: 0;
   margin: 0 0 10px 0;
+  line-height: 2;
 }
 
 /*======= contact-section class'da address tag'i için aşağdıaki stilleri içeren bir selector yaratın:
@@ -109,22 +113,29 @@ footer {
   border-top: 1px dashed white;
 }
 
-footer .footer-content { 
-  margin: 0 auto; 
-  width: 400px;
+
+  
   /*======= width property yaratın. Değerini 605px olarak atayın */
   
-}
+
+
 
 footer .footer-content h3 {
   padding: 0;
   margin: 20px 0;
+  
+ 
 }
 
-footer nav a {
-  display: flex;
+footer .footer-content nav {
+  
+  width: 605px;
 }
 
+footer  p{
+
+  text-align: center;
+}
 /*======= Footer'daki anchor tag için aşağıdaki stilleri içeren bir selector yaratın:
   margin: 10px;
   color: black;
